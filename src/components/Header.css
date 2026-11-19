@@ -1,0 +1,147 @@
+.header {
+  width: 100%;
+  min-height: 85px;
+  padding: 15px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--section-bg-one);
+  color: var(--page-text);
+  border-bottom: 1px solid rgba(200, 164, 93, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: var(--page-text);
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-button {
+  position: relative;
+  background: transparent;
+  color: var(--page-text);
+  font-size: 24px;
+  padding: 8px;
+}
+
+.cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--gold);
+  color: var(--black);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  color: var(--gold);
+  font-size: 27px;
+}
+
+/* Mobile Navigation */
+@media (max-width: 900px) {
+  .header {
+    padding: 15px 5%;
+  }
+
+  .menu-toggle {
+    display: block;
+    order: 3;
+  }
+
+  .header-actions {
+    margin-left: auto;
+    margin-right: 15px;
+    gap: 12px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--section-bg-one);
+    border-bottom: 1px solid var(--gold);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  width: 50px;
+  height: 26px;
+  background-color: var(--gold);
+  border-radius: 20px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: 0.3s ease;
+  margin-right: 15px;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+}
+
+.toggle-circle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--black);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+[data-theme="light"] .theme-toggle {
+  background-color: #d1d5db;
+  justify-content: flex-start;
+}
+
+[data-theme="light"] .toggle-circle {
+  background-color: #ffffff;
+}

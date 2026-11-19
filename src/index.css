@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Brand Colours */
+  --black: #171614;
+  --gold: #C8A45D;
+  --cream: #F7F2E8;
+  --white: #FFFFFF;
+  --grey: #A0A0A0;
+
+  /* Fonts */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Poppins', sans-serif;
+
+  /* Default Dark Mode */
+  --page-bg: #171614;
+  --page-text: #F7F2E8;
+  --card-bg: #22201C;
+  --muted-text: #BDB8AE;
+
+  /* Alternating Section Backgrounds */
+  --section-bg-one: #171614;
+  --section-bg-two: #22201C;
+
+  /* About Section */
+  --about-bg: #22201C;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --page-bg: #171614;
+  --page-text: #F7F2E8;
+  --card-bg: #22201C;
+  --muted-text: #BDB8AE;
+
+  --section-bg-one: #171614;
+  --section-bg-two: #22201C;
+
+  --about-bg: #22201C;
+}
+
+/* Light Mode */
+[data-theme="light"] {
+  --page-bg: #F7F2E8;
+  --page-text: #171614;
+  --card-bg: #FFFFFF;
+  --muted-text: #666666;
+
+  --section-bg-one: #F7F2E8;
+  --section-bg-two: #FFFFFF;
+
+  --about-bg: #FFFFFF;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background-color: var(--page-bg);
+  color: var(--page-text);
+  overflow-x: hidden;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-body);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
