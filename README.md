@@ -122,7 +122,7 @@ Follow these steps to run the project locally.
 **1. Clone the repository**
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
 ```
 
 **2. Navigate into the project folder**
