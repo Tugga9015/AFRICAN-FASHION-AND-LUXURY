@@ -40,6 +40,7 @@ To run this project locally:
 
 ```bash
 git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
+git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
 ```
 
 ### 2. Open the project folder
@@ -105,4 +106,4 @@ GitHub: [Tugga9015](https://github.com/Tugga9015)
 
 ---
 
-**AFRIQUE LUXE — Celebrating African Fashion Through Elegance.**
+*AFRIQUE LUXE — Celebrating African Elegance and Style.*
