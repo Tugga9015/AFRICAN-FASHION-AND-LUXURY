@@ -82,13 +82,21 @@
   padding: 22px;
 }
 
+.product-description {
+  color: var(--muted-text);
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 300;
+  margin: 8px 0 12px;
+}
+
 .product-info h3 {
   color: var(--page-text);
   font-size: 22px;
   margin-bottom: 10px;
 }
 
-.product-info p {
+.product-info p:not(.product-description) {
   color: var(--gold);
   font-size: 16px;
   margin-bottom: 18px;

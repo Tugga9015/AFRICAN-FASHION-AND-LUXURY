@@ -21,6 +21,13 @@
   letter-spacing: 2px;
 }
 
+.logo img {
+  width: 180px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .nav-links {
   display: flex;
   align-items: center;

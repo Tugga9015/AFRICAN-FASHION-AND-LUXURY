@@ -6,30 +6,38 @@ function FAQ() {
 
   const questions = [
     {
+      id: 1,
       question: "How can I place an order?",
       answer:
         "Browse our collections, choose your preferred item, and add it to your shopping bag. You can review your selected items in the bag.",
     },
     {
+      id: 2,
       question: "Do you offer delivery?",
       answer:
         "Delivery arrangements and availability can be confirmed with our customer support team.",
     },
     {
+      id: 3,
       question: "Can I return or exchange an item?",
       answer:
         "Please contact our customer support team for information about returns and exchanges.",
     },
     {
+      id: 4,
       question: "How can I contact AFRIQUE LUXE?",
       answer:
         "You can reach us through the contact form on our website or through our available contact channels.",
     },
   ];
 
-  const toggleQuestion = (index) => {
-    setActiveQuestion(activeQuestion === index ? null : index);
-  };
+  function toggleQuestion(index) {
+    if (activeQuestion === index) {
+      setActiveQuestion(null);
+    } else {
+      setActiveQuestion(index);
+    }
+  }
 
   return (
     <section id="faq" className="faq-section">
@@ -40,20 +48,28 @@ function FAQ() {
 
         <div className="faq-list">
           {questions.map((item, index) => (
-            <div className="faq-item" key={index}>
+            <div className="faq-item" key={item.id}>
               <button
                 type="button"
                 className="faq-question"
                 onClick={() => toggleQuestion(index)}
                 aria-expanded={activeQuestion === index}
+                aria-controls={`faq-answer-${item.id}`}
               >
                 {item.question}
 
-                <span>{activeQuestion === index ? "−" : "+"}</span>
+                <span>
+                  {activeQuestion === index ? "−" : "+"}
+                </span>
               </button>
 
               {activeQuestion === index && (
-                <p className="faq-answer">{item.answer}</p>
+                <p
+                  className="faq-answer"
+                  id={`faq-answer-${item.id}`}
+                >
+                  {item.answer}
+                </p>
               )}
             </div>
           ))}
@@ -61,11 +77,10 @@ function FAQ() {
       </div>
 
       <div className="faq-image">
-        <img src="/images/FAQ.png" alt="Elegant African fashion design" />
-      </div>
-
-      <div className="faq-content">
-        {/* Keep your existing FAQ content here */}
+        <img
+          src="/images/FAQ.png"
+          alt="Elegant African fashion design"
+        />
       </div>
     </section>
   );

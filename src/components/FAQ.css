@@ -8,13 +8,6 @@
   color: var(--page-text);
 }
 
-.faq-image img {
-  width: 100%;
-  height: 520px;
-  object-fit: contain;
-  object-position: cover;
-}
-
 .faq-content {
   max-width: 600px;
 }
@@ -49,6 +42,7 @@
   text-align: left;
   font-size: 15px;
   border: none;
+  cursor: pointer;
 }
 
 .faq-question span {
@@ -63,11 +57,21 @@
   padding: 0 25px 20px 0;
 }
 
+.faq-image img {
+  width: 100%;
+  height: 520px;
+  object-fit: contain;
+}
+
 @media (max-width: 768px) {
   .faq-section {
     grid-template-columns: 1fr;
     gap: 35px;
     padding: 65px 6%;
+  }
+
+  .faq-image {
+    grid-row: 2;
   }
 
   .faq-image img {

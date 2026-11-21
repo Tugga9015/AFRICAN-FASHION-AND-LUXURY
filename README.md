@@ -1,181 +1,107 @@
-# AFRIQUE LUXE | Luxury African Fashion
+# AFRIQUE LUXE
 
-**Elegance. Culture. Identity.**
+**Luxury African Fashion, Redefined.**
 
-AFRIQUE LUXE is a modern, luxury-inspired African fashion website created to celebrate African fashion, culture, and craftsmanship through a refined digital experience.
+AFRIQUE LUXE is a luxury African fashion website created to showcase elegant African-inspired clothing and fashion collections. The website provides visitors with a simple and attractive way to explore collections, learn about the brand, and make enquiries.
 
-Designed with an elegant black, gold, and cream aesthetic, the website combines visual storytelling, responsive layouts, and interactive features to create a smooth and engaging browsing experience.
+## About the Project
 
-## 🌍 Project Overview
+This project was developed as part of my TechUp Academy final project. It demonstrates my understanding of frontend development using React, JavaScript, CSS, and responsive web design.
 
-The goal of AFRIQUE LUXE is to create a professional online presence for a luxury African fashion brand, allowing visitors to explore collections, discover the brand, make appointment requests, and interact with different sections of the website.
+## Features
 
-The project focuses on clean design, accessibility, responsiveness, and practical frontend functionality.
+- Responsive design for desktop, tablet, and mobile devices.
+- Elegant black, gold, and cream colour theme.
+- Light and dark mode toggle.
+- Mobile-friendly navigation menu.
+- Fashion collections with product images and descriptions.
+- Product search and category filtering.
+- Show More and Show Less functionality.
+- Shopping bag with item count and total.
+- Fashion appointment booking section.
+- Newsletter subscription interface.
+- Interactive Frequently Asked Questions section.
+- Contact form with input validation.
 
-## ✨ Key Features
+## Technologies Used
 
-### 1. Elegant Homepage
-- Luxury-inspired hero section.
-- Brand introduction and call-to-action.
-- Clean navigation and responsive layout.
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- ESLint
 
-### 2. About AFRIQUE LUXE
-- Brand story and identity.
-- Visual presentation of African fashion.
-- Dedicated section introducing the brand.
+## Getting Started
 
-### 3. Why Choose Us
-- Highlights the brand's values.
-- Presents its commitment to quality, elegance, and craftsmanship.
+To run this project locally:
 
-### 4. Fashion Collections
-- Organised product display.
-- Product search and filtering.
-- Show More functionality for additional collections.
-- Add to Cart functionality.
-
-### 5. Shopping Bag
-- Add products to the shopping bag.
-- Increase or decrease product quantities.
-- Remove products.
-- Automatically calculate the total price.
-
-### 6. Appointment Booking
-Visitors can select from three appointment options:
-- Fashion Consultation
-- Store Visit
-- Custom Design Appointment
-
-The booking interface includes a form for entering contact details and selecting an appointment date.
-
-### 7. Newsletter Section
-A dedicated section for visitors interested in receiving brand updates and announcements.
-
-### 8. Frequently Asked Questions
-An interactive FAQ section with expandable questions and answers to help visitors find useful information.
-
-### 9. Contact Section
-A contact form that allows visitors to submit enquiries through the website interface.
-
-### 10. Dark and Light Mode
-A theme switcher that allows visitors to choose between two visual experiences while maintaining the brand's identity.
-
-### 11. Responsive Design
-The website is designed to adapt to different screen sizes, including desktop, tablet, and mobile devices.
-
-## 🛠️ Technologies & Tools
-
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website structure |
-| CSS3 | Styling, layouts, and responsiveness |
-| JavaScript (ES6+) | Interactive functionality |
-| React.js | Component-based user interface |
-| Vite | Development environment and build tool |
-
-## 🎨 Design Direction
-
-AFRIQUE LUXE follows a luxury African fashion design direction.
-
-**Primary colour palette:**
-- Deep Black — sophistication and elegance.
-- Gold — luxury and exclusivity.
-- Warm Cream — simplicity and refinement.
-- White — clarity and balance.
-
-The design combines elegant typography, fashion imagery, carefully arranged sections, and consistent styling to create a premium brand experience.
-
-## 📂 Project Structure
-
-```text
-afrique-luxe/
-│
-├── public/
-│   └── images/
-│
-├── src/
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── Hero/
-│   │   ├── About/
-│   │   ├── WhyChooseUs/
-│   │   ├── Collections/
-│   │   ├── Booking/
-│   │   ├── Newsletter/
-│   │   ├── FAQ/
-│   │   ├── Contact/
-│   │   └── Footer/
-│   │
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── index.html
-├── package.json
-└── README.md
-```
-
-## 🚀 Getting Started
-
-Follow these steps to run the project locally.
-
-**1. Clone the repository**
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
 ```
 
-**2. Navigate into the project folder**
+### 2. Open the project folder
 
 ```bash
-cd afrique-luxe
+cd AFRICAN-FASHION-AND-LUXURY
 ```
 
-**3. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-**4. Start the development server**
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-**5. Open the local development URL**
+Open the local URL displayed in your terminal to view the website.
 
-Visit the URL displayed in your terminal to view the website.
+### 5. Build for production
 
-## ⚙️ Current Project Status
+```bash
+npm run build
+```
 
-**Frontend Development: Completed**
+## Project Note
 
-The main website sections, responsive layouts, theme switching, shopping bag interactions, and frontend form interfaces have been implemented.
+AFRIQUE LUXE is a frontend demonstration project. Features such as booking, newsletter subscription, shopping bag, and contact form are interface demonstrations. No real payments, bookings, newsletter subscriptions, or messages are processed.
 
-**Future Improvements**
-- Backend integration.
-- Database storage for bookings and customer enquiries.
-- Functional newsletter subscription.
-- Payment gateway integration.
-- User authentication.
-- Product management system.
+## Screenshots
 
-## 🎯 Project Objective
+### Desktop View
+![Desktop View](public/images/screenshots/desktop.png)
 
-This project demonstrates the practical application of frontend development skills, including React components, CSS styling, JavaScript interactions, responsive design, and user interface development.
+### Mobile View
+![Mobile View](public/images/screenshots/mobile.png)
 
-It also represents an opportunity to turn a creative brand concept into a functional digital experience.
+### Dark Mode
+![Dark Mode](public/images/screenshots/dark-mode.png)
 
-## 👨‍💻 Developer
+## What I Learned
+
+Through this project, I practised:
+
+- Building reusable React components.
+- Managing state and user interactions.
+- Working with JavaScript arrays and `.map()`.
+- Creating responsive layouts with CSS.
+- Implementing search and filtering functionality.
+- Improving website accessibility and user experience.
+- Using Git and GitHub to manage and share my project.
+
+## Author
 
 **Ahmad Aminu Tugga**
 
-Frontend Developer | Technology Enthusiast
+Frontend Development Learner
 
-## 📜 Acknowledgement
-
-Developed as a student project under **TechUp Academy**, with the aim of applying frontend development knowledge to a practical website project.
+GitHub: [Tugga9015](https://github.com/Tugga9015)
 
 ---
 
