@@ -72,7 +72,7 @@ npm run build
 
 AFRIQUE LUXE is a frontend demonstration project. Features such as booking, newsletter subscription, shopping bag, and contact form are interface demonstrations. No real payments, bookings, newsletter subscriptions, or messages are processed.
 
-## Screenshots
+<!-- ## Screenshots
 
 ### Desktop View
 ![Full-page desktop view of the AFRIQUE LUXE fashion website. A woman in ornate black-and-gold African attire appears in the hero banner, followed by fashion photography, collection cards, appointment and newsletter forms, FAQs, contact details, and footer links. The cream, white, black, and gold design feels elegant and welcoming. Visible headings include AFRIQUE LUXE, Discover the Beauty of African Fashion, Celebrating African Elegance, Why Choose AFRIQUE LUXE?, Our Collections, Let’s Create Something Beautiful, Join Our Newsletter, Frequently Asked Questions, and Contact Us.](public/images/screenshots/desktop.png)
@@ -81,7 +81,7 @@ AFRIQUE LUXE is a frontend demonstration project. Features such as booking, news
 ![Mobile layout of the AFRIQUE LUXE fashion website, presenting African-inspired clothing, collection cards, appointment and newsletter forms, FAQs, and contact information in a narrow-screen format. The elegant fashion storefront uses a cream, white, black, and gold palette. Visible page headings include Discover the Beauty of African Fashion, Our Collections, Join Our Newsletter, Frequently Asked Questions, and Contact Us.](public/images/screenshots/mobile.png)
 
 ### Dark Mode
-![Dark-mode view of the AFRIQUE LUXE fashion website, with African-inspired clothing and collection cards presented in a dark, elegant interface with gold accents. The page includes appointment and newsletter forms, FAQs, and contact information. Visible headings include Discover the Beauty of African Fashion, Our Collections, Join Our Newsletter, Frequently Asked Questions, and Contact Us.](public/images/screenshots/dark-mode.png)
+![Dark-mode view of the AFRIQUE LUXE fashion website, with African-inspired clothing and collection cards presented in a dark, elegant interface with gold accents. The page includes appointment and newsletter forms, FAQs, and contact information. Visible headings include Discover the Beauty of African Fashion, Our Collections, Join Our Newsletter, Frequently Asked Questions, and Contact Us.](public/images/screenshots/dark-mode.png) -->
 
 ## What I Learned
 
