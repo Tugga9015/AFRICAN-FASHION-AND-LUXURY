@@ -40,7 +40,6 @@ To run this project locally:
 
 ```bash
 git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
-git clone https://github.com/Tugga9015/AFRICAN-FASHION-AND-LUXURY.git
 ```
 
 ### 2. Open the project folder
